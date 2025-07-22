@@ -10,8 +10,6 @@ CON TRỎ C
     Note: Kích thước này không thay đổi cho bất kỳ kiểu dữ liệu nào trong C.
 
     Code ví dụ để biết cách khai báo con trỏ và sử dụng con trỏ cho biến.
-    Input:
-    int main() {
         
         int a = 3;
         
@@ -19,11 +17,10 @@ CON TRỎ C
         printf("In ra giá trị của a thông qua con trỏ: %d\n", *ptr);
         printf("In ra địa chỉ của a thông qua con trỏ: %p", ptr);
         return 0;
-    }
 
     Output:
-    In ra giá trị của a thông qua con trỏ: 3
-    In ra địa chỉ của a thông qua con trỏ: 0x7ffde40392e4
+        In ra giá trị của a thông qua con trỏ: 3
+        In ra địa chỉ của a thông qua con trỏ: 0x7ffde40392e4
 
     Ở ví dụ trên ta thấy con trỏ ptr đang lưu địa chỉ của biến a ở bộ nhớ RAM và địa chỉ của a là 0x7ffde40392e4, Khi ta muốn xuất giá trị của a thì ta chỉ cần dùng cú pháp *ptr.
 
