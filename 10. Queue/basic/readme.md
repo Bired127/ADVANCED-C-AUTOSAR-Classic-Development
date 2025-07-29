@@ -32,6 +32,7 @@ Queue được sử dụng rộng rãi trong nhiều bài toán và hệ thống
     Trong hàng đợi tuyến tính, sau nhiều lần dequeue, vùng nhớ đầu mảng không được tái sử dụng dẫn đến lãng phí. Circular Queue giải quyết vấn đề này bằng cách xoay vòng chỉ số front và rear khi đến cuối mảng.
 
     Code Demo:
+    ~~~c
     #define MAX 5
 
     typedef struct {
