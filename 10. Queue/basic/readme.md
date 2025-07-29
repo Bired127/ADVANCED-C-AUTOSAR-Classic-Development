@@ -2,13 +2,13 @@
 
 # Queue là gì ?
 
-    - Queue là một dạng cấu trúc dữ liệu tuân theo nguyên tắc "First In First out", nghĩa là phần tử đầu tiên được thêm vào hàng đợi sẽ được lấy ra đầu tiên.
-    - Các thao tác cơ bản trên hàng đợi bao gồm:
-        + enqueue: Thêm phần tử vào cuối hàng đợi.
-        + dequeue: Xóa phần tử từ đầu hàng đợi.
-        + front: Đọc giá trị của phần tử đứng đầu hàng đợi.
-        + rear: Đọc giá trị của phần tử đứng cuối hàng đợi.
-        + Kiểm tra hàng đợi trong 2 trạng thái IsFull và IsEmpty.
+- Queue là một dạng cấu trúc dữ liệu tuân theo nguyên tắc "First In First out", nghĩa là phần tử đầu tiên được thêm vào hàng đợi sẽ được lấy ra đầu tiên.
+- Các thao tác cơ bản trên hàng đợi bao gồm:
+    + enqueue: Thêm phần tử vào cuối hàng đợi.
+    + dequeue: Xóa phần tử từ đầu hàng đợi.
+    + front: Đọc giá trị của phần tử đứng đầu hàng đợi.
+    + rear: Đọc giá trị của phần tử đứng cuối hàng đợi.
+    + Kiểm tra hàng đợi trong 2 trạng thái IsFull và IsEmpty.
 
 # Cấu trúc hàng đợi trong C
 
