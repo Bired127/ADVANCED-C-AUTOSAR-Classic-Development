@@ -10,6 +10,21 @@
     + rear: Đọc giá trị của phần tử đứng cuối hàng đợi.
     + Kiểm tra hàng đợi trong 2 trạng thái IsFull và IsEmpty.
 
+front sẽ trỏ vào đầu hàng đợi còn rear sẽ trỏ vào cuối hàng đợi, khi 1 phần tử thêm vào hàng đợi thì rear++ còn front giữ nguyên.
+
+Ban đầu front và rear được khởi tạo = -1, khi có phần tử đầu tiên thì front và rear = 0;
+
+Khi enqueue => rear++;
+
+Khi rear = size - 1 => IsFull();
+
+Khi dequeue => front++;
+
+Khi front == rear => IsEmpty();
+
+front = rear = -1;
+
+
 # Cấu trúc hàng đợi trong C
 
 Trong ngôn ngữ C, hàng đợi có thể được triển khai bằng mảng hoặc danh sách liên kết.
@@ -21,6 +36,10 @@ Queue được sử dụng rộng rãi trong nhiều bài toán và hệ thống
 - Giao tiếp dữ liệu: Bộ đệp buffer giữa các luồng hoặc giữa producer-consumer.
 - Xử lý yêu cầu trong Server.
 - Mô phỏng hệ thống: Xếp hàng trong siêu thị, ngân hàng,...
+
+# Các thao tác chính trong Queue
+
+
 
 # Circular Queue
 
